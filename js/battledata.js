@@ -179,7 +179,7 @@ statNamesExceptHP=['atk','def','spa','spd','spe'];this.
 
 pokeballs=null;this.
 
-modResourcePrefix='https://raw.githubusercontent.com/scoopapa/dh/master/data/mods/';this.
+modResourcePrefix='https://raw.githubusercontent.com/koopamon/dh/master/data/mods/';this.
 resourcePrefix=function(){var _window$document,_window$document$loca;
 var prefix='';
 if(((_window$document=window.document)==null?void 0:(_window$document$loca=_window$document.location)==null?void 0:_window$document$loca.protocol)!=='http:')prefix='https:';

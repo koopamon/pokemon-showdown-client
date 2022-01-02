@@ -24,12 +24,12 @@ function ThemeHeaderTemplate() {
 <?php } ?>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8" />
-	<link rel="stylesheet" href="//dragonheaven.herokuapp.com/style/font-awesome.css?0.08633017141141663" />
-	<link rel="stylesheet" href="//dragonheavenserver.herokuapp.com/theme/panels.css?0.28541711731671193" />
-	<link rel="stylesheet" href="//dragonheavenserver.herokuapp.com/theme/main.css?0.41070571084229845" />
-	<link rel="stylesheet" href="//dragonheaven.herokuapp.com/style/battle.css?0.7489349392985356" />
-	<link rel="stylesheet" href="//dragonheaven.herokuapp.com/style/replay.css?0.18636941591783618" />
-	<link rel="stylesheet" href="//dragonheaven.herokuapp.com/style/utilichart.css?0.7333615029675156" />
+	<link rel="stylesheet" href="//dragonheaven.herokuapp.com/style/font-awesome.css?0.27518590345646365" />
+	<link rel="stylesheet" href="//dragonheavenserver.herokuapp.com/theme/panels.css?0.639377377583481" />
+	<link rel="stylesheet" href="//dragonheavenserver.herokuapp.com/theme/main.css?0.6545201848829925" />
+	<link rel="stylesheet" href="//dragonheaven.herokuapp.com/style/battle.css?0.13552011855414503" />
+	<link rel="stylesheet" href="//dragonheaven.herokuapp.com/style/replay.css?0.6250951463474483" />
+	<link rel="stylesheet" href="//dragonheaven.herokuapp.com/style/utilichart.css?0.23319753679579946" />
 
 	<!-- Workarounds for IE bugs to display trees correctly. -->
 	<!--[if lte IE 6]><style> li.tree { height: 1px; } </style><![endif]-->
@@ -53,11 +53,11 @@ function ThemeHeaderTemplate() {
 	<div class="pfx-topbar">
 		<div class="header">
 			<ul class="nav">
-				<li><a class="button nav-first<?php if ($panels->tab === 'home') echo ' cur'; ?>" href="//dragonheavenserver.herokuapp.com/?0.27114663337468525"><img src="//dragonheavenserver.herokuapp.com/images/pokemonshowdownbeta.png?0.885997904473617" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
-				<li><a class="button<?php if ($panels->tab === 'pokedex') echo ' cur'; ?>" href="//dex.pokemonshowdown.com/?0.17831582302340654">Pok&eacute;dex</a></li>
-				<li><a class="button<?php if ($panels->tab === 'replay') echo ' cur'; ?>" href="/?0.3671985349902209">Replays</a></li>
-				<li><a class="button<?php if ($panels->tab === 'ladder') echo ' cur'; ?>" href="//dragonheavenserver.herokuapp.com/ladder/?0.1930637670634172">Ladder</a></li>
-				<li><a class="button nav-last" href="//dragonheavenserver.herokuapp.com/forums/?0.6702843629681152">Forum</a></li>
+				<li><a class="button nav-first<?php if ($panels->tab === 'home') echo ' cur'; ?>" href="//dragonheavenserver.herokuapp.com/?0.16828068375040695"><img src="//dragonheavenserver.herokuapp.com/images/pokemonshowdownbeta.png?0.7396201705288594" alt="Pok&eacute;mon Showdown! (beta)" /> Home</a></li>
+				<li><a class="button<?php if ($panels->tab === 'pokedex') echo ' cur'; ?>" href="//dex.pokemonshowdown.com/?0.19199712918859624">Pok&eacute;dex</a></li>
+				<li><a class="button<?php if ($panels->tab === 'replay') echo ' cur'; ?>" href="/?0.5220327423061248">Replays</a></li>
+				<li><a class="button<?php if ($panels->tab === 'ladder') echo ' cur'; ?>" href="//dragonheavenserver.herokuapp.com/ladder/?0.8729581143693246">Ladder</a></li>
+				<li><a class="button nav-last" href="//dragonheavenserver.herokuapp.com/forums/?0.4769532833023493">Forum</a></li>
 			</ul>
 			<ul class="nav nav-play">
 				<li><a class="button greenbutton nav-first nav-last" href="http://play.pokemonshowdown.com/">Play</a></li>
@@ -74,10 +74,10 @@ function ThemeHeaderTemplate() {
 
 function ThemeScriptsTemplate() {
 ?>
-	<script src="//dragonheaven.herokuapp.com/js/lib/jquery-1.11.0.min.js?0.7354520739713313"></script>
-	<script src="//dragonheaven.herokuapp.com/js/lib/lodash.core.js?0.8346383285161743"></script>
-	<script src="//dragonheaven.herokuapp.com/js/lib/backbone.js?0.7785738328182412"></script>
-	<script src="//dex.pokemonshowdown.com/js/panels.js?0.2891518292009687"></script>
+	<script src="//dragonheaven.herokuapp.com/js/lib/jquery-1.11.0.min.js?0.2778634886525422"></script>
+	<script src="//dragonheaven.herokuapp.com/js/lib/lodash.core.js?0.4606637101778943"></script>
+	<script src="//dragonheaven.herokuapp.com/js/lib/backbone.js?0.2090796266168562"></script>
+	<script src="//dex.pokemonshowdown.com/js/panels.js?0.8957268768686781"></script>
 <?php
 }
 
@@ -86,21 +86,21 @@ function ThemeFooterTemplate() {
 ?>
 <?php $panels->scripts(); ?>
 
-	<script src="//dragonheaven.herokuapp.com/js/lib/jquery-cookie.js?0.6464594789638269"></script>
-	<script src="//dragonheaven.herokuapp.com/js/lib/html-sanitizer-minified.js?0.004511824977020185"></script>
-	<script src="//dragonheaven.herokuapp.com/js/battle-sound.js?0.3197935770810878"></script>
-	<script src="//dragonheaven.herokuapp.com/config/config.js?0.05898384744781193"></script>
-	<script src="//dragonheaven.herokuapp.com/js/battledata.js?0.74828015328066"></script>
-	<script src="//dragonheaven.herokuapp.com/data/pokedex-mini.js?0.08332534402562652"></script>
-	<script src="//dragonheaven.herokuapp.com/data/pokedex-mini-bw.js?0.28750179859778857"></script>
-	<script src="//dragonheaven.herokuapp.com/data/graphics.js?0.37215352222872133"></script>
-	<script src="//dragonheaven.herokuapp.com/data/pokedex.js?0.38463299938944084"></script>
-	<script src="//dragonheaven.herokuapp.com/data/items.js?0.29106825203296083"></script>
-	<script src="//dragonheaven.herokuapp.com/data/moves.js?0.5371940887737676"></script>
-	<script src="//dragonheaven.herokuapp.com/data/abilities.js?0.3239001715219356"></script>
-	<script src="//dragonheaven.herokuapp.com/data/teambuilder-tables.js?0.5861096742550511"></script>
-	<script src="//dragonheaven.herokuapp.com/js/battle-tooltips.js?0.06886015332000461"></script>
-	<script src="//dragonheaven.herokuapp.com/js/battle.js?0.35558579707220406"></script>
+	<script src="//dragonheaven.herokuapp.com/js/lib/jquery-cookie.js?0.24796568588249635"></script>
+	<script src="//dragonheaven.herokuapp.com/js/lib/html-sanitizer-minified.js?0.27223618306356"></script>
+	<script src="//dragonheaven.herokuapp.com/js/battle-sound.js?0.2614654564034984"></script>
+	<script src="//dragonheaven.herokuapp.com/config/config.js?0.6583460196115827"></script>
+	<script src="//dragonheaven.herokuapp.com/js/battledata.js?0.8643287677021501"></script>
+	<script src="//dragonheaven.herokuapp.com/data/pokedex-mini.js?0.07682757377774263"></script>
+	<script src="//dragonheaven.herokuapp.com/data/pokedex-mini-bw.js?0.24699806507392585"></script>
+	<script src="//dragonheaven.herokuapp.com/data/graphics.js?0.14906096957828274"></script>
+	<script src="//dragonheaven.herokuapp.com/data/pokedex.js?0.09214199265452838"></script>
+	<script src="//dragonheaven.herokuapp.com/data/items.js?0.8925744098407582"></script>
+	<script src="//dragonheaven.herokuapp.com/data/moves.js?0.7392362723325112"></script>
+	<script src="//dragonheaven.herokuapp.com/data/abilities.js?0.09566763101036613"></script>
+	<script src="//dragonheaven.herokuapp.com/data/teambuilder-tables.js?0.8140194961469853"></script>
+	<script src="//dragonheaven.herokuapp.com/js/battle-tooltips.js?0.4771052236861606"></script>
+	<script src="//dragonheaven.herokuapp.com/js/battle.js?0.27230834214003186"></script>
 	<script src="/js/replay.js?6887ea68"></script>
 
 </body></html>

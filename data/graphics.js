@@ -1147,7 +1147,7 @@ this.$spritesFront[spriteIndex].append(rock3.$el);
 this.$spritesFront[spriteIndex].append(rock4.$el);
 this.sideConditions[siden][id]=[rock1,rock2,rock3,rock4];
 break;
-case'gmaxsteelsurge':
+case'secretseeds':
 var surge1=new Sprite(BattleEffects.greenmetal1,{
 display:'block',
 x:side.leftof(-30),
@@ -23261,7 +23261,7 @@ opacity:1},
 'ballistic');
 }},
 
-gmaxsteelsurge:{
+secretseeds:{
 anim:function(scene,_ref269){var attacker=_ref269[0],defender=_ref269[1];
 scene.backgroundEffect('#000000',1200,0.3);
 scene.showEffect('impact',{

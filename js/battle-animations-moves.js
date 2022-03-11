@@ -17281,7 +17281,7 @@ opacity:1},
 'ballistic');
 }},
 
-gmaxsteelsurge:{
+secretseeds:{
 anim:function(scene,_ref269){var attacker=_ref269[0],defender=_ref269[1];
 scene.backgroundEffect('#000000',1200,0.3);
 scene.showEffect('impact',{

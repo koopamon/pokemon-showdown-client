@@ -1147,7 +1147,7 @@ class BattleScene {
 			this.$spritesFront[spriteIndex].append(rock4.$el!);
 			this.sideConditions[siden][id] = [rock1, rock2, rock3, rock4];
 			break;
-		case 'gmaxsteelsurge':
+		case 'secretseeds':
 			const surge1 = new Sprite(BattleEffects.greenmetal1, {
 				display: 'block',
 				x: side.leftof(-30),

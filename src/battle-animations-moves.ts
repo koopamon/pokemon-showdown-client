@@ -17281,7 +17281,7 @@ const BattleMoveAnims: AnimTable = {
 			}, 'ballistic');
 		},
 	},
-	gmaxsteelsurge: {
+	secretseeds: {
 		anim(scene, [attacker, defender]) {
 			scene.backgroundEffect('#000000', 1200, 0.3);
 			scene.showEffect('impact', {

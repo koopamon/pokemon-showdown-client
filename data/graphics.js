@@ -23497,7 +23497,7 @@ defender.anim({
 time:350},
 'swing');
 
-scene.showEffect('greenmetal1',{
+scene.showEffect('leaf1',{
 x:attacker.x,
 y:attacker.y,
 z:attacker.z,
@@ -23510,7 +23510,7 @@ z:defender.z,
 scale:0.3,
 opacity:1},
 'ballistic');
-scene.showEffect('greenmetal2',{
+scene.showEffect('leaf2',{
 x:attacker.x,
 y:attacker.y,
 z:attacker.z,
@@ -23524,7 +23524,7 @@ z:defender.z,
 scale:0.3,
 opacity:1},
 'ballistic');
-scene.showEffect('greenmetal1',{
+scene.showEffect('leaf1',{
 x:attacker.x,
 y:attacker.y,
 z:attacker.z,

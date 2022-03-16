@@ -685,6 +685,7 @@ break;
 case'stealthrock':
 case'spikes':
 case'toxicspikes':
+case'secretseeds':
 case'stickyweb':
 this.sideConditions[condition]=[effect.name,1,0,0];
 break;

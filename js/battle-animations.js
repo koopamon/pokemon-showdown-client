@@ -1148,29 +1148,29 @@ this.$spritesFront[spriteIndex].append(rock4.$el);
 this.sideConditions[siden][id]=[rock1,rock2,rock3,rock4];
 break;
 case'secretseeds':
-var surge1=new Sprite(BattleEffects.greenmetal1,{
+var surge1=new Sprite(BattleEffects.leaf1,{
 display:'block',
 x:side.leftof(-30),
 y:side.y-20,
 z:side.z,
 opacity:0.5,
-scale:0.8},
+scale:1.2},
 this);
-var surge2=new Sprite(BattleEffects.greenmetal2,{
+var surge2=new Sprite(BattleEffects.leaf2,{
 display:'block',
 x:side.leftof(35),
 y:side.y-15,
 z:side.z,
 opacity:0.5,
-scale:0.8},
+scale:1.2},
 this);
-var surge3=new Sprite(BattleEffects.greenmetal1,{
+var surge3=new Sprite(BattleEffects.leaf1,{
 display:'block',
 x:side.leftof(50),
 y:side.y-10,
 z:side.z,
 opacity:0.5,
-scale:0.8},
+scale:1.2},
 this);
 
 this.$spritesFront[spriteIndex].append(surge1.$el);

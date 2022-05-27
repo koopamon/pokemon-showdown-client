@@ -664,6 +664,9 @@ class Side {
 		case 'auroraveil':
 			this.sideConditions[condition] = [effect.name, 1, 5, 8];
 			break;
+		case 'magmaaura':
+			this.sideConditions[condition] = [effect.name, 1, 5, 8];
+			break;
 		case 'reflect':
 			this.sideConditions[condition] = [effect.name, 1, 5, this.battle.gen >= 4 ? 8 : 0];
 			break;
@@ -687,6 +690,7 @@ class Side {
 		case 'toxicspikes':
 		case 'secretseeds':
 		case 'stickyweb':
+		case 'magiccircle':
 			this.sideConditions[condition] = [effect.name, 1, 0, 0];
 			break;
 		case 'gmaxwildfire':
@@ -2759,6 +2763,7 @@ class Battle {
 			case 'auroraveil':
 			case 'reflect':
 			case 'lightscreen':
+			case 'magmaaura':
 			case 'safeguard':
 			case 'mist':
 			case 'gmaxwildfire':

@@ -1261,7 +1261,6 @@ class BattleScene {
 			this.$spritesFront[spriteIndex].append(web.$el!);
 			this.sideConditions[siden][id] = [web];
 			break; 
-
 		case 'magiccircle':
 			const mistball = new Sprite(BattleEffects.mistball, {
 				display: 'block',

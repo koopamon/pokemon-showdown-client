@@ -1261,7 +1261,6 @@ this);
 this.$spritesFront[spriteIndex].append(web.$el);
 this.sideConditions[siden][id]=[web];
 break;
-
 case'magiccircle':
 var mistball=new Sprite(BattleEffects.mistball,{
 display:'block',

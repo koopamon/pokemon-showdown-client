@@ -1260,6 +1260,19 @@ scale:0.7},
 this);
 this.$spritesFront[spriteIndex].append(web.$el);
 this.sideConditions[siden][id]=[web];
+break;
+
+case'magiccircle':
+var mistball=new Sprite(BattleEffects.mistball,{
+display:'block',
+x:side.x+15,
+y:side.y-35,
+z:side.z,
+opacity:0.4,
+scale:0.7},
+this);
+this.$spritesFront[spriteIndex].append(mistball.$el);
+this.sideConditions[siden][id]=[mistball];
 break;}
 
 };_proto.
